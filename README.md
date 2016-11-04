@@ -1,1 +1,1 @@
-Small project to enhance Android and design skills. Uber for dogs?
+Small project to enhance Android and design skills. Lassie for Lyft? Uber for Puppers?

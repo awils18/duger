@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:text="Recurring Walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardTitle"
+                android:layout_margin="4dp"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-light"
+                style="@style/AlertDialog.AppCompat.Light" />
+
+            <TextView
+                android:text="3:30PM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cardTitle"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:text="YOUR DÜGER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/yourDugerTitle"
+                android:layout_margin="4dp"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@+id/time"
+                style="@style/AlertDialog.AppCompat.Light"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/yourDugerTitle"
+                android:id="@+id/imageView"
+                android:src="@drawable/sample_profile_picture"
+                android:layout_margin="4dp" />
+
+            <TextView
+                android:text="Phillip Pugsador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_marginBottom="11dp"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:text="MON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon"
+                android:layout_alignBaseline="@+id/time"
+                android:layout_alignBottom="@+id/time"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:text="WED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wed"
+                android:layout_alignBaseline="@+id/mon"
+                android:layout_alignBottom="@+id/mon"
+                android:layout_toRightOf="@+id/mon"
+                android:layout_toEndOf="@+id/mon"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:text="FRI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fri"
+                android:layout_alignBaseline="@+id/wed"
+                android:layout_alignBottom="@+id/wed"
+                android:layout_toRightOf="@+id/wed"
+                android:layout_toEndOf="@+id/wed"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:text="Special Instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:id="@+id/instructions"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:textStyle="normal|bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:text="The keys are under the mat this week, feel free to take one of the oranges on the counter, we bought too many to eat ourselves :slightly_smiling_face:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/instructions"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:id="@+id/textView6"
+                android:textSize="12sp"
+                android:layout_margin="4dp"
+                android:background="@color/gray"
+                android:padding="4dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

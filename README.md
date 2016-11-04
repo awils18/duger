@@ -1,1 +1,1 @@
-Uber for Dogs, Dogs for Uber. A fun coffee shop project.
+Small project to enhance Android and design skills. Uber for dogs?
